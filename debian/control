@@ -1,0 +1,16 @@
+Source: dotted
+Maintainer: Andrew Otto (WMF) <otto@wikimedia.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 8)
+Standards-Version: 3.9.3
+
+Package: python-dotted
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Access dicts and lists with a dotted path notation.
+ .
+ A Python library that provides a method of accessing lists and dicts with a
+ dotted path notation. It is useful to access a deep path inside a complex
+ object composed of lists and dicts.
+ .

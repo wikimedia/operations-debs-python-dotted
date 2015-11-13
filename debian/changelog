@@ -1,0 +1,5 @@
+dotted (0.1.8-1) unstable; urgency=low
+
+  * Initial deb packaging.
+
+ -- Andrew Otto (WMF) <otto@wikimedia.org>  Fri, 13 Nov 2015 17:56:16 +0000

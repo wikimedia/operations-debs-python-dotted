@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=dotted
+%:
+	dh $@ --with python2
+
